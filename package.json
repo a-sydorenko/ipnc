@@ -1,11 +1,26 @@
 {
   "name": "ipnc",
-  "author": {
-    "name": "SY2",
-    "email": "sklyarov.2y@gmail.com"
-  },
+  "author": "SY2 <sklyarov.2y@gmail.com>",
   "scripts": {
-    "test":"mocha"
+    "test": "mocha"
   },
-  "version": "0.5.0"
+  "version": "0.8.0",
+  "description": "A package manager with an asynchronous non-blocking run-time stack",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SklyarovYura/ipnc.git"
+  },
+  "keywords": [
+    "ipc",
+    "net"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SklyarovYura/ipnc/issues"
+  },
+  "homepage": "https://github.com/SklyarovYura/ipnc#readme"
 }
