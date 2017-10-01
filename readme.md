@@ -1,7 +1,7 @@
 # inter-process net communication
 #IPNC
 
-A package manager with an asynchronous non-blocking run-time stack
+A package manager with an asynchronous non-blocking run-time queue
 
 vocabulary
 

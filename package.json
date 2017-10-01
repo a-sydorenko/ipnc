@@ -1,11 +1,11 @@
 {
   "name": "ipnc",
-  "author": "SY2 <sklyarov.2y@gmail.com>",
+  "author": "sklyarov.yura <sklyarov.yuriy@gmail.com>",
   "scripts": {
     "test": "mocha"
   },
   "version": "0.8.0",
-  "description": "A package manager with an asynchronous non-blocking run-time stack",
+  "description": "A package manager with an asynchronous non-blocking run-time queue",
   "main": "index.js",
   "directories": {
     "test": "test"
