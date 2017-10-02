@@ -51,7 +51,9 @@ function connectFactory(){
   this.socket    = new Socket();
   
   this.socket.connect( this.options.net, ()=>{ this.connected = true; });
-  
+
+  this.socket.on( 'connect', this.emit.bind( this, 'connect' ) )
+
   this.socket.on( 'data',  ( chunk )=> {
 
     let buffer;
